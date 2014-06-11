@@ -1,0 +1,11 @@
+<center>
+<h1>Register</h1>
+</center>
+{% csrf_token %}
+<form action="{% url 'thanks' %}" method="post">
+	First Name: <input type="text" name="fname"> 
+	Last Name: <input type="text" name="lname">
+	Age: <input type="text" name="age">
+	<input type="submit" name="submit">
+</form>
+

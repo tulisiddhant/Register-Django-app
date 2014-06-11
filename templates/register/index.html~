@@ -1,0 +1,12 @@
+<!--<html>
+<head>
+	<title>Welcome to Register app</title>
+</head>
+<body>-->
+	<ul>
+		<li><a href="{% url 'register' %}">Register</a></li>
+		<li><a href="{% url 'all' %}">View all people</a></li>
+		<li><a href="search_form.html">Search People</a></li>
+	</ul>
+<!--</body>
+</html>-->

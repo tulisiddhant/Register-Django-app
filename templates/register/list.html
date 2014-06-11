@@ -1,0 +1,8 @@
+<center>
+<h1>List of all People</h1>
+</center>
+<ul>
+	{% for per in list_all %}
+		<li> {{ per.l_name }}, {{ per.f_name }}. Aged {{ per.age }} years. </li>
+	{% endfor %}
+</ul>
